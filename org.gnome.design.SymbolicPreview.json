@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.design.SymbolicPreview",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -39,8 +39,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://source.puri.sm/Librem5/libhandy.git",
-                "tag": "v0.0.10",
-                "commit": "2d777677352d037b6f5cc24d9c1c8d9a74ac0ded"
+                "tag": "v0.0.13",
+                "commit": "7a193d7692c9c76a1a94f17c4d30b585f77d177c"
             }]
         },
         {
