@@ -9,7 +9,7 @@
     "command": "symbolic-preview",
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri",
         "--filesystem=home"
@@ -45,8 +45,8 @@
             "buildsystem": "meson",
             "sources": [{
                 "type": "archive",
-                "url": "https://gitlab.gnome.org/World/design/symbolic-preview/uploads/0fcc43d2d41be854d6c8f98e56756a94/symbolic-preview-0.0.1.tar.xz",
-                "sha256": "7c1246cf596c237401df506cafb40bb732104029e06513d887a437fcd2ab89a3"
+                "url": "https://gitlab.gnome.org/World/design/symbolic-preview/uploads/91fd27bb70553c8d6c3ad2a35446ff6e/symbolic-preview-0.0.2.tar.xz",
+                "sha256": "78de76f369ab4e292b9423ce8b1b6ad7b47807c31cac6d0fce532e7e2f0814ed"
             }]
         }
     ]
