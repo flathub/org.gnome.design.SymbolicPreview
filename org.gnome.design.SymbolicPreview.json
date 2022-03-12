@@ -91,8 +91,8 @@
             "buildsystem": "meson",
             "sources": [{
                 "type": "archive",
-                "url": "https://gitlab.gnome.org/World/design/symbolic-preview/uploads/5f51c1307e704e9eef0944c12f556d9e/symbolic-preview-0.0.3.tar.xz",
-                "sha256": "24eeaeb570c413f757d09e43c85f50f4b759f68c838695b9e01ebf893c1b2918"
+                "url": "https://gitlab.gnome.org/World/design/symbolic-preview/uploads/df71a2eee9ea0c90b3d146e7286fec42/symbolic-preview-0.0.3.tar.xz",
+                "sha256": "8cd4069ebef640d770905619de376460f36e7064d52213ab11bff4b0dad2e221"
             }]
         }
     ]
