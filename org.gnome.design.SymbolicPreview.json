@@ -1,7 +1,7 @@
 {
-    "app-id": "org.gnome.design.SymbolicPreview",
+    "id": "org.gnome.design.SymbolicPreview",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "43",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -23,8 +23,8 @@
             "buildsystem": "meson",
             "sources": [{
                 "type": "archive",
-                "url": "https://gitlab.gnome.org/World/design/symbolic-preview/uploads/2c8727532bab3300bdf6f3f9d622073e/symbolic-preview-0.0.4.tar.xz",
-                "sha256": "b9972ec920bfeb800a99732fe3e3b2977e90df727ec3ac91736cf8f7087f3dc0"
+                "url": "https://gitlab.gnome.org/World/design/symbolic-preview/uploads/0e2c631e62aaf3576f7529332fe2be22/symbolic-preview-0.0.6.tar.xz",
+                "sha256": "f9edbb83c1e75d4e2b4f475ce07e565152eaa679ccb1f88362d7365079086ea5"
             }]
         }
     ]
