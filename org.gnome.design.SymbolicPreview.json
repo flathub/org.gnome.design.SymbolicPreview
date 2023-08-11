@@ -41,6 +41,17 @@
             ],
             "modules": [
                 {
+                    "name": "cairo",
+                    "buildsystem": "meson",
+                    "sources": [
+                        {
+                            "type": "git",
+                            "url": "https://gitlab.freedesktop.org/cairo/cairo",
+                            "tag": "1.17.8"
+                        }
+                    ]
+                },
+                {
                     "name": "glib",
                     "buildsystem": "meson",
                     "sources": [
