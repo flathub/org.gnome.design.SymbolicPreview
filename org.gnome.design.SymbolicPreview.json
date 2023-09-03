@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libadwaita/1.4/libadwaita-1.4.beta.tar.xz",
-                    "sha256": "5b6a0e51fd7b6273564ce937a9d302ca683e61f05791b09a36a881d3952128a4",
+                    "url": "https://download.gnome.org/sources/libadwaita/1.4/libadwaita-1.4.rc.tar.xz",
+                    "sha256": "c9ebf05d16954a4b4d1c26ea87e52f662346d8fa90b70f8165bead0721a1ed10",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "libadwaita",
@@ -90,8 +90,8 @@
                         {
                             "type": "git",
                             "url": "https://github.com/ximion/appstream.git",
-                            "commit": "1ee6af91310f9deb47f3863a7a7ffb22c46bcce6",
-                            "tag": "v0.16.2",
+                            "commit": "50026949a9a9559d9fedbf577e60073b38ebee6d",
+                            "tag": "v0.16.3",
                             "x-checker-data": {
                                 "type": "git",
                                 "tag-pattern": "^v([\\d.]+)$"
@@ -173,8 +173,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.gnome.org/sources/gtk/4.12/gtk-4.12.0.tar.xz",
-                            "sha256": "a6d10829f405b1afc0b65e2a9642c04126a1d1b638d11c6d97426da4f84f1f6f",
+                            "url": "https://download.gnome.org/sources/gtk/4.13/gtk-4.13.0.tar.xz",
+                            "sha256": "0e2e928a271ac5ef9c95d891a2b9a8c46df9598d12efd9ccfa31695e88cab6aa",
                             "x-checker-data": {
                                 "type": "gnome",
                                 "name": "gtk",
@@ -188,11 +188,13 @@
         {
             "name": "symbolic-preview",
             "buildsystem": "meson",
-            "sources": [{
-                "type": "archive",
-                "url": "https://gitlab.gnome.org/World/design/symbolic-preview/uploads/e2fed158fc0d267f2051302bcf14848b/symbolic-preview-0.0.9.tar.xz",
-                "sha256": "931fbbd0b090cf3580c365ddddf286abde35e78d08337635fabe049b830d59bc"
-            }]
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gitlab.gnome.org/World/design/symbolic-preview/uploads/e2fed158fc0d267f2051302bcf14848b/symbolic-preview-0.0.9.tar.xz",
+                    "sha256": "931fbbd0b090cf3580c365ddddf286abde35e78d08337635fabe049b830d59bc"
+                }
+            ]
         }
     ]
 }
